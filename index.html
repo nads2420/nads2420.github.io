@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadya Soto's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Vollkorn:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+   
+    <main>
+     
+    <header>
+      <nav>
+        <a href="#allAbout">About</a> <a href="#allProjects">Work</a><a href="#allContact">Contact</a>
+ </nav>
+    </header>
+
+      <div id="allAbout">
+      <h2>About</h2>
+      <!-- <span id="hook"> Hi, I'm Nadya Soto.<br> Game and Web Designer</div> -->
+  <p>
+     I have a BS in Game Design and Development and a minor from Japanese at Rochester Institute of Technology. In 2023-2024 I completed a year-long Japanese
+     program at Kansai University.I am passionate about Level and Environmental Design in video games. I'm familiar with both Unity and Unreal engines and also with creating 3D models in Maya and Blender.
+   I'm interested in designing web applications on both mobile and desktop and have used the Flutter framework. Programming languages I am comfortable with include: C#, C++, Dart and JavaScript. On my days off I like to study languages, 
+   take pictures, and watch horror movies.
+  </p>
+  <img src="media/me.jpg">
+
+</div>
+    <section>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+        <script>
+            const myCarouselElement = document.querySelector('#myCarousel');
+    
+    const carousel = new bootstrap.Carousel(myCarouselElement, {
+      interval: 2000,
+      touch: false
+    })
+            </script>
+
+        <div id="allProjects">
+            <h2>My Projects</h2>
+            <div id="carousel1" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Virtual Worlds project in Unreal4</h5>
+                        <p>Focus on Lighting and post-processing</p>
+                      </div>
+                    <img src="media/shrine2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>3D Modeling</h5>
+                        <p>Made in Maya </p>
+                      </div>
+                    <img src="media/tchest.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Skyrim Mod</h5>
+                        <p>World Design using Creation Kit</p>
+                      </div>
+                    <img src="media/ScreenShot24.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="projects">
+                <img src = "media/project4.png" alt="Game">
+                <p> <b>Kanji Finder</b> A site made using Fetch API, Bulma, and a Kanji API.
+                    <a href="https://people.rit.edu/~nks8789/330/kanji-finder-2/home.html">Kanji Finder</a>
+            </p>
+            </div>
+            <div class="projects">
+                
+        <img src = "media/project2.png" alt="Game">
+                <p><b>スタジオジブリ Movie List</b> A site I made using a Ghibli API. You can sort the list of movies alphabetically, search the movies, and find movies descriptions and other
+                    information (Directors, Rating, Release Date,etc). I utlized web stoarge to save the last search result in the search bar. I got all
+                    of the  information of the movies from the Ghibli API and provided the pictures myself. The project was to make a useful and entertaining site using
+                    what we learned about web storage and API's.
+                    
+                    <a href="https://people.rit.edu/nks8789/235/Ghibli/index.html">Ghibli Movie List</a>
+                </p>
+                
+        </div>
+        <div class="projects">
+            <img src = "media/project3.png" alt="Game">
+            <p> <b>Bug Hunt</b> A game about catching bugs with your mouse. You have 40 seconds at the start of the game to find bugs which
+                adds seconds to the timer. I created this game for my final project for an Intro to Web Tech class. The game was made with PIXIJs and
+            JavaScript.In the game, I made all of the sprites, and got the audio from royalty free audio libraries. I also practiced utilizing ES6 classes
+            in my code.
+            <a href="https://people.rit.edu/nks8789/235/project3/">Bug Hunt</a>
+
+        </p>
+       
+        </div>
+
+            <div class="projects">
+                <img src = "media/3dproj.png" alt="Game">
+                <p><b>Detective's Office</b>
+                    My final project for 3D Animation and Asset Production. I worked in a group of 4 as the team lead to create a unity scene modeled 
+                    with MAYA. The theme of the scene is a noir-esque detective's office. I created the greybox in unity and modeled the floors,walls, desk,
+                bookshelf,door, and a few other models in the scene. I was also tasked with putting all the models in the scene and handling the lighting. I created 
+                    models using techniques learned in class, such as, uv unwrapping, texturing, skinning, and rigging.
+                    <a href="https://youtu.be/QfjfCskBBF8">Detective Office</a>
+            </p>
+                </div>
+                <!-- <div class="projects">
+                  <img src = "media/nationn.png" alt="Game">
+                  <p><b>NationNavi</b>
+                      My final project for my Multi-platform Media App Development Course. It was made using Flutter, Dart, and the Google Maps Flutter plugin.
+                      The app allows the user to search countries by name and sort through countries based on language and region. It also has the functionality to search locations and add pins 
+                      to the map.
+              </p>
+                  </div> -->
+                
+                <div id="unrealProjs">
+                    
+                        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/4iqG-xw7mag?autoplay=1&mute=1">
+        </iframe>
+                        <!-- <iframe width="420" height="315"
+        src="">
+        </iframe> -->
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/h74fnvDU8ow?autoplay=1&mute=1">
+        </iframe>
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/uXOVxePJHaU?autoplay=1&mute=1">
+        </iframe>
+                    
+                   
+                </div>
+                <div id="itchProjects">
+                    <iframe frameborder="0" src="https://itch.io/embed/1558957?linkback=true&amp;border_width=2&amp;bg_color=a4b2ae&amp;link_color=058785&amp;border_color=0b0909" width="554" height="169"><a href="https://zaffypuck.itch.io/runesmith">RuneSmith by Adam Zaffram, nads204</a></iframe>
+                    </div>
+            </div>
+           
+        </section>
+   
+    <section>
+        <div id="allContact">
+        <h2>Contact/Resume</h2>
+        <div id="contact">
+            <a href="media/Resume2024Soto.pdf">Resume</a>
+            <div id="links"><a href ="https://www.linkedin.com/in/nadya-s-4a34891b8/"><img src="https://img.icons8.com/?size=100&id=447&format=png&color=000000" alt="gg"></a>
+              <a href ="https://github.com/nads2420"><img src="https://img.icons8.com/?size=100&id=12598&format=png&color=000000" alt="gg"></a></div>
+            <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyEJrXW89pZ7n9o7aVr2ntazXFCS_NKZHxvvOPZ8K0NvGyfA/viewform?embedded=true" width="1200" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+                <!-- <iframe src="https://docs.google.com/document/d/e/2PACX-1vSXzw0WZaJiiKkqxbN6v0CvMwJgnlNecYhYeIUFQsEEFYLsF-DKALCxjDcE4cs1SyuzqHh4UWFFPLkE/pub?embedded=true"width="1200" height="800"></iframe>      -->
+        </div>
+    </div>
+    </section>
+    
+<footer>
+    <!-- <a href="https://icons8.com/icon/108812/linkedin">LinkedIn icon by Icons8</a>
+    <a href="documentation.html">Documentation</a> -->
+</footer>
+</main>
+</body>
+</html>

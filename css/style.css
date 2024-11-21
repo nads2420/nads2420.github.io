@@ -1,0 +1,301 @@
+body
+{
+    
+    background-color: aliceblue;
+    
+}
+header
+{
+    color: rgb(247, 247, 247);
+    position: sticky;
+    top: 0;
+    opacity: 0.70;
+    background-color:#7393B3;
+    font-family: 'Vollkorn', serif;
+    margin: auto;
+
+}
+#links
+{
+    display:flex;
+    justify-content: right;
+}
+nav
+{
+    
+    background-color:#7393B3;
+    font-family: 'Vollkorn', serif;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    font-size: 27px;
+    margin: auto;
+    color: rgb(247, 247, 247);
+    
+}
+nav a
+{
+   padding:0.5rem;
+    
+}
+#hook
+{
+    font-size: 40px;
+}
+
+#carousel1
+{
+    width:700px;
+    height:500px;
+    display: flex;
+    margin: auto;
+}
+#carousel1 img
+{
+    width:700px;
+    height:400px;
+
+}
+#itchProjects
+{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    height:200px;
+}
+
+.projects
+{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 1.5rem;
+   
+    
+}
+.carousel-caption
+{
+    font-size: small;
+    
+}
+
+
+#unrealProjs 
+{
+    width: fit-content;
+    display: flex;
+    margin: auto;
+
+    
+}
+.projects p
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 50%;
+    height:fit-content;
+    padding: 1rem;
+    font-size:x-large;
+    
+
+}
+
+.projects img
+{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+#contact
+{
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+#contact a
+{
+    font-size: 25px;
+}
+
+#allAbout
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding:1.5rem;
+    margin: auto;
+}
+#allAbout img
+{
+border: 1px;
+    height:250px;
+    width:180px;
+    margin:auto;
+    border-radius: 50%;
+}
+#allAbout p
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding:0.5rem;
+    display: flex;
+    align-items: center;
+}
+h2
+{
+    font-family: 'Vollkorn', serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+
+/* Anchor Styles */
+
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  a:visited
+  {
+    color:white;
+    text-decoration: none;
+  }
+  a:hover
+  {
+      color:#5c52ac;
+      text-decoration: none;
+      
+  }
+
+#contact a{
+    color:#7393B3;
+}
+.projects a{
+    color:#7393B3;
+}
+
+@media screen and (max-width:1360px)
+{
+    #unrealProjs iframe
+    {
+        padding: 1rem;
+        align-items: center;
+        margin: auto;
+        width: fit-content;
+        
+        
+    }
+
+}
+@media screen and (max-width:1200px)
+{
+
+
+    .projects
+    {
+        
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+
+
+    }
+    .projects img
+    {
+        width:390px;
+        height: 270px;
+        
+    }
+    .projects p
+    {
+        font-size: 18px;
+        width: fit-content;
+        height:fit-content;
+   
+    }
+    header
+    {
+        padding:0px;
+        font-size: 39px;
+    }
+    nav
+    {
+        
+        font-size: 20px;
+    }
+    #contact 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+       
+    }
+    #unrealProjs
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #unrealProjs iframe
+{
+    padding: 1rem;
+    align-items: center;
+    margin: auto;
+    
+    
+}
+#carousel1
+{
+    width:fit-content;
+    height:400px;
+    display: flex;
+    margin: auto;
+}
+#carousel1 img
+{
+    width:fit-content;
+    height:400px;
+
+}
+ #allAbout
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+ }
+
+    #allAbout p
+    { 
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: medium;
+
+
+    }
+ 
+
+}
+@media screen and (max-width:500px)
+{
+    #allAbout
+    {
+      display: flex;
+      justify-content: center;
+
+    }
+}
