@@ -6,19 +6,21 @@ body
 }
 header
 {
+    text-align:center;
     color: rgb(247, 247, 247);
     position: sticky;
-    top: 0;
-    opacity: 0.70;
+    opacity: 0.90;
     background-color:#7393B3;
     font-family: 'Vollkorn', serif;
     margin: auto;
 
 }
+
 #links
 {
-    display:flex;
-    justify-content: right;
+    margin-left: auto; 
+margin-right: 0;
+    
 }
 nav
 {
@@ -37,10 +39,6 @@ nav a
 {
    padding:0.5rem;
     
-}
-#hook
-{
-    font-size: 40px;
 }
 
 #carousel1
@@ -130,16 +128,17 @@ nav a
 #allAbout
 {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding:1.5rem;
+    padding:2.0rem;
     margin: auto;
 }
 #allAbout img
 {
 border: 1px;
     height:250px;
-    width:180px;
+    width:200px;
     margin:auto;
     border-radius: 50%;
 }
@@ -147,9 +146,8 @@ border: 1px;
 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-    padding:0.5rem;
-    display: flex;
-    align-items: center;
+    padding:1.5rem;
+  
 }
 h2
 {
