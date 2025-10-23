@@ -136,9 +136,11 @@ nav a
 }
 #allAbout img
 {
+     display: flex;
+     flex-direction: row;
 border: 1px;
-    height:250px;
-    width:200px;
+    height:300px;
+    width:300px;
     margin:auto;
     border-radius: 50%;
 }
@@ -246,6 +248,7 @@ a:link {
     #unrealProjs
     {
         display: flex;
+        justify-content: space-between;
         flex-direction: column;
     }
     #unrealProjs iframe
